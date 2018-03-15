@@ -1,3 +1,7 @@
 # Build your say_hello method here
-def say_hello
+puts "What is your name?"
+name = gets.to_s
+
+def say_hello(name = "Ruby Programmer")
+  puts "Hello #{name}!"
 end
